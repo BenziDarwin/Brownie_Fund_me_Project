@@ -2,7 +2,7 @@ from brownie import network, config, accounts, MockV3Aggregator
 
 DECIMALS = 18
 STARTING_PRICE = 200000000
-FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork"]
+FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork-dev"]
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["development", "ganache-local"]
 
 

@@ -23,7 +23,7 @@ def test_can_fund_and_withdraw():
 def test_withdraw_only_owner():
     if network.show_active() not in LOCAL_BLOCKCHAIN_ENVIRONMENTS:
         pytest.skip("Only local envronments!")
-        
+
     account = choose_account()
     account2 = accounts[1]
     fund_me = deploy_fund_me()
